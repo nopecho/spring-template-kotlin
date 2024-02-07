@@ -23,9 +23,9 @@ allprojects {
     }
 
     apply {
-        plugin: "java-library"
-        plugin: "org.jetbrains.kotlin.jvm"
-        plugin: "org.jetbrains.kotlin.plugin.serialization"
+        plugin "java-library"
+        plugin "org.jetbrains.kotlin.jvm"
+        plugin "org.jetbrains.kotlin.plugin.serialization"
     }
 
     dependencies {
