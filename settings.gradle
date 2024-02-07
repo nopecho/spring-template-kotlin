@@ -1,1 +1,4 @@
-rootProject.name = ""
+rootProject.name = "spring-template-kotlin"
+include 'core'
+include 'bootstrap'
+
