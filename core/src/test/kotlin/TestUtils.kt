@@ -18,7 +18,7 @@ fun concurrencyCall(requestSize: Int = 100, task: () -> Unit): List<Throwable> {
         }.start()
     }
 
-    Thread.sleep(500)
+    Thread.sleep(100)
     startLatch.countDown()
     doneLatch.await()
     return throwable
