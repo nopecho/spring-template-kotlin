@@ -1,10 +1,5 @@
-apply {
-    plugin "org.jetbrains.kotlin.plugin.spring"
-    plugin "org.springframework.boot"
-    plugin "io.spring.dependency-management"
-}
-
 dependencies {
-    implementation "org.springframework.boot:spring-boot-starter"
-    testImplementation "org.springframework.boot:spring-boot-starter-test"
+    implementation(project(':core'))
+
+    implementation "io.awspring.cloud:spring-cloud-aws-starter-parameter-store"
 }
