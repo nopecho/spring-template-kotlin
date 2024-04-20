@@ -26,3 +26,7 @@ dependencies {
      * testImplementation "org.testcontainers:postgresql"
      */
 }
+
+bootJar {
+    enabled = false
+}
