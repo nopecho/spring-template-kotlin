@@ -10,11 +10,11 @@ down:
 build:
 	$(CURDIR)/gradlew clean :bootstrap:build
 
-build-docker: build
+docker: build
 	cd $(BUILD_PATH) && \
     	docker build \
     	--tag $(tag) \
     	.
 
-.PHONY: build build-docker
+.PHONY: build docker
 default: up
