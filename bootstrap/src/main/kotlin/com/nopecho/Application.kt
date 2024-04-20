@@ -1,4 +1,4 @@
-package io.nopecho
+package com.nopecho
 
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.SpringBootApplication
